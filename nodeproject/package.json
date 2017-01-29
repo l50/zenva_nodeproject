@@ -1,0 +1,25 @@
+{
+  "name": "chat-example",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "app.js",
+  "repository": "",
+  "author": "Jayson Grace <jayson.e.grace@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "ejs": "^2.5.5",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4",
+    "nodemon": "^1.11.0",
+    "wiredep": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \" Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  }
+}
