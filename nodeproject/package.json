@@ -12,6 +12,7 @@
     "socket.io": "~0.9.14"
   },
   "devDependencies": {
+    "express": "^4.13.4",
     "gulp": "^3.9.1",
     "gulp-jshint": "^2.0.4",
     "jshint": "^2.9.4",
